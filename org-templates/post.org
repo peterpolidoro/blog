@@ -1,0 +1,3 @@
+#+AUTHOR: John Doe
+#+OPTIONS: toc:nil
+#+HTML_DOCTYPE: xhtml-strict
