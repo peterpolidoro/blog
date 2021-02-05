@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- Feb 05, 2021 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Virtualization</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Peter Polidoro" />
+<link rel='icon' type='image/x-icon' href='/images/favicon.ico'/>
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+<link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
+<link rel='stylesheet' href='/css/site.css?v=2' type='text/css'/>
+<link rel='stylesheet' href='/css/custom.css' type='text/css'/>
+<link rel='stylesheet' href='/css/syntax-coloring.css' type='text/css'/>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+</head>
+<body>
+<div id="org-div-home-and-up">
+ <a accesskey="h" href="/"> UP </a>
+ |
+ <a accesskey="H" href="/"> HOME </a>
+</div><header id="top" class="status">
+<div class='intro'>
+  <img src='/images/about/profile.png' alt='Peter Polidoro' class='no-border'/>
+  <h1>
+    <span class="green">Peter</span>
+    <span class="black">Polidoro</span>
+  </h1>
+  <p>I build robotics and automate experiments for the scientists studying animal brains at Janelia Research Campus.</p>
+</div>
+
+<div class='nav'>
+<ul>
+<li><a href='/'>Blog</a>.</li>
+<li><a href='https://github.com/peterpolidoro'>Github</a>.</li>
+<li><a href='/about/'>About</a></li>
+</ul>
+</div>
+</header>
+<main id="content">
+<h1 class="title">Virtualization
+<br />
+<span class="subtitle">Published on Feb 05, 2021 by Peter Polidoro.</span>
+</h1>
+<p>
+<i>This is in Italic</i> and <b>this is bold</b> and <span class="underline">this is how underlined looks</span>. We
+can also use <code>verbatim</code> or <code>code</code>. Use <del>strikethrough</del> if
+needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
+</p>
+
+<section id="outline-container-org1aa95d4" class="outline-2">
+<h2 id="org1aa95d4">HTML snippet:</h2>
+<div class="outline-text-2" id="text-org1aa95d4">
+<div class="org-src-container">
+<pre class="src src-html">&lt;<span class="org-function-name">html</span>&gt;
+  &lt;<span class="org-function-name">h1</span>&gt;&lt;/<span class="org-function-name">h1</span>&gt;
+&lt;/<span class="org-function-name">html</span>&gt;
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org4c73d0a" class="outline-2">
+<h2 id="org4c73d0a">Python snippet with line numbers:</h2>
+<div class="outline-text-2" id="text-org4c73d0a">
+<div class="org-src-container">
+<pre class="src src-python"><span class="linenr"> 1: </span><span class="org-py-import-from">from</span> contextlib <span class="org-py-import-from">import</span> contextmanager
+<span class="linenr"> 2: </span>
+<span class="linenr"> 3: </span><span class="org-py-decorators">@contextmanager</span>
+<span class="linenr"> 4: </span><span class="org-py-def-class">def</span> <span class="org-py-def">tag</span>(name):
+<span class="linenr"> 5: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;%s&gt;"</span> % name)
+<span class="linenr"> 6: </span>    <span class="org-keyword">yield</span>
+<span class="linenr"> 7: </span>    <span class="org-keyword">print</span>(<span class="org-string">"&lt;/%s&gt;"</span> % name)
+<span class="linenr"> 8: </span>
+<span class="linenr"> 9: </span><span class="org-keyword">with</span> tag(<span class="org-string">"h1"</span>):
+<span class="linenr">10: </span>    <span class="org-keyword">print</span>(<span class="org-string">"foo"</span>)
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org05e6954" class="outline-2">
+<h2 id="org05e6954">Emacs Lisp snippet</h2>
+<div class="outline-text-2" id="text-org05e6954">
+<div class="org-src-container">
+<pre class="src src-emacs-lisp">(message <span class="org-string">"foo-bar"</span>)
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orga7b4365" class="outline-2">
+<h2 id="orga7b4365">Github Gist:</h2>
+<div class="outline-text-2" id="text-orga7b4365">
+<script src="https://gist.github.com/psachin/97708deb39aa60484c95a9df6f535ba6.js"></script>
+</div>
+</section>
+
+<section id="outline-container-org6032eb5" class="outline-2">
+<h2 id="org6032eb5">Github Snippet</h2>
+<div class="outline-text-2" id="text-org6032eb5">
+<script src="https://gitlab.com/snippets/1790218.js"></script>
+</div>
+</section>
+
+<section id="outline-container-orgf86f9df" class="outline-2">
+<h2 id="orgf86f9df">Below is the content of <code>.gitlab-ci.yml</code>:</h2>
+<div class="outline-text-2" id="text-orgf86f9df">
+<div class="org-src-container">
+<pre class="src src-conf">image: iquiw/alpine-emacs
+
+.build: &amp;build
+  script:
+  - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
+  artifacts:
+    paths:
+    - public
+
+pages:
+  &lt;&lt;: *build
+  only:
+  - master
+
+test:
+  &lt;&lt;: *build
+  except:
+  - master
+</pre>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org13624b1" class="outline-2">
+<h2 id="org13624b1">Center aligned image with no border:</h2>
+<div class="outline-text-2" id="text-org13624b1">
+
+<div id="org34b1b9c" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="center no-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org69831a6" class="outline-2">
+<h2 id="org69831a6">Image with Black border:</h2>
+<div class="outline-text-2" id="text-org69831a6">
+
+<div id="orgeecab8e" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="black-border" />
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgcab9e70" class="outline-2">
+<h2 id="orgcab9e70">Image with spaced border:</h2>
+<div class="outline-text-2" id="text-orgcab9e70">
+
+<div id="org30a0b09" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="spaced-border" />
+</p>
+</div>
+</div>
+</section>
+<section id="outline-container-orgafecfb0" class="outline-2">
+<h2 id="orgafecfb0">Image with rounded corners:</h2>
+<div class="outline-text-2" id="text-orgafecfb0">
+
+<div id="orgf1adb6b" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgb4f780b" class="outline-2">
+<h2 id="orgb4f780b">Image with rounded corners and border:</h2>
+<div class="outline-text-2" id="text-orgb4f780b">
+
+<div id="orga1de739" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border black-border" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org17d01fb" class="outline-2">
+<h2 id="org17d01fb">Image with Caption:</h2>
+<div class="outline-text-2" id="text-org17d01fb">
+
+<div id="orgbe66596" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" />
+</p>
+<p><span class="figure-number">Figure 6: </span>Fan of FSF</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-org485cdac" class="outline-2">
+<h2 id="org485cdac">Image with 40% width:</h2>
+<div class="outline-text-2" id="text-org485cdac">
+
+<div id="orgb7dba8b" class="figure">
+<p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" width="40%" />
+</p>
+</div>
+</div>
+</section>
+
+<section id="outline-container-orgc104d1c" class="outline-2">
+<h2 id="orgc104d1c">Table:</h2>
+<div class="outline-text-2" id="text-orgc104d1c">
+<table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" align="center">
+
+
+<colgroup>
+<col  class="org-left" />
+
+<col  class="org-left" />
+</colgroup>
+<thead>
+<tr>
+<th scope="col" class="org-left">Specs</th>
+<th scope="col" class="org-left">&#xa0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="org-left">Brand</td>
+<td class="org-left">Vostok</td>
+</tr>
+
+<tr>
+<td class="org-left">Class</td>
+<td class="org-left">Amphibia</td>
+</tr>
+
+<tr>
+<td class="org-left">Model</td>
+<td class="org-left">670927</td>
+</tr>
+
+<tr>
+<td class="org-left">Movement</td>
+<td class="org-left">2415</td>
+</tr>
+
+<tr>
+<td class="org-left">Winding</td>
+<td class="org-left">Manual + Automatic</td>
+</tr>
+
+<tr>
+<td class="org-left">Jewels</td>
+<td class="org-left">31</td>
+</tr>
+
+<tr>
+<td class="org-left">Power reserve</td>
+<td class="org-left">&lt; 33 hrs.</td>
+</tr>
+
+<tr>
+<td class="org-left">WR</td>
+<td class="org-left">20 ATM</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial</td>
+<td class="org-left">41mm</td>
+</tr>
+
+<tr>
+<td class="org-left">Lug width</td>
+<td class="org-left">20mm</td>
+</tr>
+
+<tr>
+<td class="org-left">Strap material</td>
+<td class="org-left">Silicon</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial material</td>
+<td class="org-left">Steel</td>
+</tr>
+
+<tr>
+<td class="org-left">Dial shape</td>
+<td class="org-left">Round</td>
+</tr>
+
+<tr>
+<td class="org-left">Bezel</td>
+<td class="org-left">(smooth)Rotating</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+<div id="footnotes">
+<h2 class="footnotes">Footnotes: </h2>
+<div id="text-footnotes">
+
+<div class="footdef"><sup><a id="fn.1" class="footnum" href="#fnr.1">1</a></sup> <div class="footpara"><p class="footpara">
+Visit <a href="https://orgmode.org/org.html">The Org Manual</a> for more detail.
+</p></div></div>
+
+<div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
+It&rsquo;s easy to publish org-mode pages via <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> and <a href="https://pages.gitlab.io/">Pages</a>.
+</p>
+
+<div class='comments'><div id='disqus_thread'></div><script type='text/javascript'>var disqus_shortname = 'johndoe-example-com'; (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script>  <noscript>Please enable JavaScript to view the <a href='http://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript></div></div></div>
+
+
+</div>
+</div></main>
+<footer id="postamble" class="status">
+<div class='footer'>
+  Copyright © 2021 <a href='mailto:peterpolidoro@gmail.com'>Peter Polidoro</a><br>
+  Last updated on Feb 05, 2021. Generated using <a href="https://www.gnu.org/software/emacs/">Emacs</a> 27.1 (<a href="https://orgmode.org">Org</a> mode 9.4.4).
+</div>
+</footer>
+</body>
+</html>

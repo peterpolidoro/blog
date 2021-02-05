@@ -31,3 +31,6 @@ clean:
 	@rm -rvf *.elc
 	@rm -rvf public
 	@rm -rvf ~/.org-timestamps/*
+
+serve:
+	python3 -m http.server --directory=docs/
