@@ -156,20 +156,7 @@ publishing directory. Returns output file name."
          :publishing-directory "./docs/assets"
          :publishing-function org-publish-attachment
          :recursive t)
-        ("rss"
-         :base-directory "posts"
-         :base-extension "org"
-         :html-link-home "http://example.com/"
-         :rss-link-home "http://example.com/"
-         :html-link-use-abs-url t
-         :rss-extension "xml"
-         :publishing-directory "./docs"
-         :publishing-function (org-rss-publish-to-rss)
-         :section-number nil
-         :exclude ".*"
-         :include ("index.org")
-         :table-of-contents nil)
-        ("all" :components ("posts" "about" "css" "images" "assets" "rss"))))
+        ("all" :components ("posts" "about" "css" "images" "assets"))))
 
 (provide 'publish)
 ;;; publish.el ends here
