@@ -8,29 +8,29 @@ https://peterpolidoro.github.io/blog
 
   - Clone this repository:
 
-    #+BEGIN_SRC shell
+  #+BEGIN_SRC shell
 
-			git clone https://github.com/peterpolidoro/blog
+		git clone https://github.com/peterpolidoro/blog
 
-    #+END_SRC
+  #+END_SRC
 
   - Execute =make= to export org pages to HTML. The HTML pages will be generated
     in the =docs/= directory,
 
-    #+BEGIN_SRC shell -n
+  #+BEGIN_SRC shell -n
 
-			cd blog
-			make
+		cd blog
+		make
 
-    #+END_SRC
+  #+END_SRC
 
   - Use Python's =http.server= module to locally render the pages,
 
-    #+BEGIN_SRC shell -n
+  #+BEGIN_SRC shell -n
 
-			make serve
+		make serve
 
-			# Open http://localhost:8000/ in the Web browser.
+		# Open http://localhost:8000/ in the Web browser.
 
-    #+END_SRC
+  #+END_SRC
 
