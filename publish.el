@@ -45,12 +45,12 @@
 
 
 (defvar me/website-html-head
-  "<link rel='icon' type='image/x-icon' href='{{ site.baseurl }}/images/favicon.ico'>
+  "<link rel='icon' type='image/x-icon' href='/blog/images/favicon.ico'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
 <link rel='stylesheet' href='https://code.cdn.mozilla.net/fonts/fira.css'>
-<link rel='stylesheet' href='{{ site.baseurl }}/css/site.css?v=2' type='text/css'>
-<link rel='stylesheet' href='{{ site.baseurl }}/css/custom.css' type='text/css'>
-<link rel='stylesheet' href='{{ site.baseurl }}/css/syntax-coloring.css' type='text/css'>")
+<link rel='stylesheet' href='/blog/css/site.css?v=2' type='text/css'>
+<link rel='stylesheet' href='/blog/css/custom.css' type='text/css'>
+<link rel='stylesheet' href='/blog/css/syntax-coloring.css' type='text/css'>")
 (defun me/website-html-preamble (plist)
   "PLIST: An entry."
   (if (org-export-get-date plist this-date-format)
