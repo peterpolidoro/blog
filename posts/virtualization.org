@@ -39,9 +39,6 @@ needed.[fn:org-manual][fn:publish]
 **** Github Snippet
      #+HTML: <script src="https://gitlab.com/snippets/1790218.js"></script>
 
-**** Below is the content of =.gitlab-ci.yml=:
-     #+INCLUDE: "../.gitlab-ci.yml" src conf
-
 **** Center aligned image with no border:
      #+ATTR_HTML: :class center no-border
      [[../images/posts/template/Spring19-fan-of-fsf.png]]
@@ -92,5 +89,3 @@ needed.[fn:org-manual][fn:publish]
 
 [fn:org-manual] Visit [[https://orgmode.org/org.html][The Org Manual]] for more detail.
 [fn:publish] It's easy to publish org-mode pages via [[https://about.gitlab.com/gitlab-ci/][GitLab CI]] and [[https://pages.gitlab.io/][Pages]].
-
-#+INCLUDE: "../disquss.inc"

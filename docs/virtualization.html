@@ -72,9 +72,9 @@ can also use <code>verbatim</code> or <code>code</code>. Use <del>strikethrough<
 needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><sup><a id="fnr.2" class="footref" href="#fn.2">2</a></sup>
 </p>
 
-<section id="outline-container-org8f414b7" class="outline-2">
-<h2 id="org8f414b7">HTML snippet:</h2>
-<div class="outline-text-2" id="text-org8f414b7">
+<section id="outline-container-orgb34c994" class="outline-2">
+<h2 id="orgb34c994">HTML snippet:</h2>
+<div class="outline-text-2" id="text-orgb34c994">
 <div class="org-src-container">
 <pre class="src src-html">&lt;<span class="org-function-name">html</span>&gt;
   &lt;<span class="org-function-name">h1</span>&gt;&lt;/<span class="org-function-name">h1</span>&gt;
@@ -84,9 +84,9 @@ needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><
 </div>
 </section>
 
-<section id="outline-container-orgfe921ca" class="outline-2">
-<h2 id="orgfe921ca">Python snippet with line numbers:</h2>
-<div class="outline-text-2" id="text-orgfe921ca">
+<section id="outline-container-orgbf88fbd" class="outline-2">
+<h2 id="orgbf88fbd">Python snippet with line numbers:</h2>
+<div class="outline-text-2" id="text-orgbf88fbd">
 <div class="org-src-container">
 <pre class="src src-python"><span class="linenr"> 1: </span><span class="org-py-import-from">from</span> contextlib <span class="org-py-import-from">import</span> contextmanager
 <span class="linenr"> 2: </span>
@@ -103,9 +103,9 @@ needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><
 </div>
 </section>
 
-<section id="outline-container-org3e72eab" class="outline-2">
-<h2 id="org3e72eab">Emacs Lisp snippet</h2>
-<div class="outline-text-2" id="text-org3e72eab">
+<section id="outline-container-org7f344e4" class="outline-2">
+<h2 id="org7f344e4">Emacs Lisp snippet</h2>
+<div class="outline-text-2" id="text-org7f344e4">
 <div class="org-src-container">
 <pre class="src src-emacs-lisp">(message <span class="org-string">"foo-bar"</span>)
 </pre>
@@ -113,105 +113,78 @@ needed.<sup><a id="fnr.1" class="footref" href="#fn.1">1</a></sup><sup>, </sup><
 </div>
 </section>
 
-<section id="outline-container-org5edbbe0" class="outline-2">
-<h2 id="org5edbbe0">Github Gist:</h2>
-<div class="outline-text-2" id="text-org5edbbe0">
+<section id="outline-container-orge2080d7" class="outline-2">
+<h2 id="orge2080d7">Github Gist:</h2>
+<div class="outline-text-2" id="text-orge2080d7">
 <script src="https://gist.github.com/psachin/97708deb39aa60484c95a9df6f535ba6.js"></script>
 </div>
 </section>
 
-<section id="outline-container-org312ec3e" class="outline-2">
-<h2 id="org312ec3e">Github Snippet</h2>
-<div class="outline-text-2" id="text-org312ec3e">
+<section id="outline-container-orgb508b43" class="outline-2">
+<h2 id="orgb508b43">Github Snippet</h2>
+<div class="outline-text-2" id="text-orgb508b43">
 <script src="https://gitlab.com/snippets/1790218.js"></script>
 </div>
 </section>
 
-<section id="outline-container-org8b0f8dd" class="outline-2">
-<h2 id="org8b0f8dd">Below is the content of <code>.gitlab-ci.yml</code>:</h2>
-<div class="outline-text-2" id="text-org8b0f8dd">
-<div class="org-src-container">
-<pre class="src src-conf">image: iquiw/alpine-emacs
+<section id="outline-container-orgebac41d" class="outline-2">
+<h2 id="orgebac41d">Center aligned image with no border:</h2>
+<div class="outline-text-2" id="text-orgebac41d">
 
-.build: &amp;build
-  script:
-  - emacs --batch --no-init-file --load publish.el --funcall org-publish-all
-  artifacts:
-    paths:
-    - public
-
-pages:
-  &lt;&lt;: *build
-  only:
-  - master
-
-test:
-  &lt;&lt;: *build
-  except:
-  - master
-</pre>
-</div>
-</div>
-</section>
-
-<section id="outline-container-orge7bdda7" class="outline-2">
-<h2 id="orge7bdda7">Center aligned image with no border:</h2>
-<div class="outline-text-2" id="text-orge7bdda7">
-
-<div id="org9da06c3" class="figure">
+<div id="org82f934c" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="center no-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org726c63b" class="outline-2">
-<h2 id="org726c63b">Image with Black border:</h2>
-<div class="outline-text-2" id="text-org726c63b">
+<section id="outline-container-org314d7ed" class="outline-2">
+<h2 id="org314d7ed">Image with Black border:</h2>
+<div class="outline-text-2" id="text-org314d7ed">
 
-<div id="org8662c52" class="figure">
+<div id="org1791c13" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="black-border" />
 </p>
 </div>
 </div>
 </section>
-<section id="outline-container-org9f8f1df" class="outline-2">
-<h2 id="org9f8f1df">Image with spaced border:</h2>
-<div class="outline-text-2" id="text-org9f8f1df">
+<section id="outline-container-org69fed56" class="outline-2">
+<h2 id="org69fed56">Image with spaced border:</h2>
+<div class="outline-text-2" id="text-org69fed56">
 
-<div id="org5bb79e2" class="figure">
+<div id="orgd5ad7ff" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="spaced-border" />
 </p>
 </div>
 </div>
 </section>
-<section id="outline-container-org8b40bae" class="outline-2">
-<h2 id="org8b40bae">Image with rounded corners:</h2>
-<div class="outline-text-2" id="text-org8b40bae">
+<section id="outline-container-orge3850a4" class="outline-2">
+<h2 id="orge3850a4">Image with rounded corners:</h2>
+<div class="outline-text-2" id="text-orge3850a4">
 
-<div id="orgb4c19bb" class="figure">
+<div id="orgf0bdca9" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-orgad3a0d4" class="outline-2">
-<h2 id="orgad3a0d4">Image with rounded corners and border:</h2>
-<div class="outline-text-2" id="text-orgad3a0d4">
+<section id="outline-container-orgae319a4" class="outline-2">
+<h2 id="orgae319a4">Image with rounded corners and border:</h2>
+<div class="outline-text-2" id="text-orgae319a4">
 
-<div id="org5def0c9" class="figure">
+<div id="orgeccbc84" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" class="rounded-border black-border" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org68474e0" class="outline-2">
-<h2 id="org68474e0">Image with Caption:</h2>
-<div class="outline-text-2" id="text-org68474e0">
+<section id="outline-container-org7ea3298" class="outline-2">
+<h2 id="org7ea3298">Image with Caption:</h2>
+<div class="outline-text-2" id="text-org7ea3298">
 
-<div id="org2f2cf01" class="figure">
+<div id="org7061ecd" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" />
 </p>
 <p><span class="figure-number">Figure 6: </span>Fan of FSF</p>
@@ -219,20 +192,20 @@ test:
 </div>
 </section>
 
-<section id="outline-container-org6be6ee5" class="outline-2">
-<h2 id="org6be6ee5">Image with 40% width:</h2>
-<div class="outline-text-2" id="text-org6be6ee5">
+<section id="outline-container-org016d8e9" class="outline-2">
+<h2 id="org016d8e9">Image with 40% width:</h2>
+<div class="outline-text-2" id="text-org016d8e9">
 
-<div id="org7c39414" class="figure">
+<div id="orge960d12" class="figure">
 <p><img src="../images/posts/template/Spring19-fan-of-fsf.png" alt="Spring19-fan-of-fsf.png" width="40%" />
 </p>
 </div>
 </div>
 </section>
 
-<section id="outline-container-org97ec569" class="outline-2">
-<h2 id="org97ec569">Table:</h2>
-<div class="outline-text-2" id="text-org97ec569">
+<section id="outline-container-orgcf12518" class="outline-2">
+<h2 id="orgcf12518">Table:</h2>
+<div class="outline-text-2" id="text-orgcf12518">
 <table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides" align="center">
 
 
@@ -331,9 +304,7 @@ Visit <a href="https://orgmode.org/org.html">The Org Manual</a> for more detail.
 
 <div class="footdef"><sup><a id="fn.2" class="footnum" href="#fnr.2">2</a></sup> <div class="footpara"><p class="footpara">
 It&rsquo;s easy to publish org-mode pages via <a href="https://about.gitlab.com/gitlab-ci/">GitLab CI</a> and <a href="https://pages.gitlab.io/">Pages</a>.
-</p>
-
-<div class='comments'><div id='disqus_thread'></div><script type='text/javascript'>var disqus_shortname = 'johndoe-example-com'; (function() {var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq); })(); </script>  <noscript>Please enable JavaScript to view the <a href='http://disqus.com/?ref_noscript'>comments powered by Disqus.</a></noscript></div></div></div>
+</p></div></div>
 
 
 </div>
