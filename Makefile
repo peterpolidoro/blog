@@ -18,10 +18,14 @@ all: publish
 publish: publish.el
 	@echo "Publishing... with current Emacs configurations."
 	${EMACS} --batch --load publish.el --funcall org-publish-all
+	mkdir -p docs/blog
+	stow -v -R --ignore=blog -t docs/blog docs
 
 publish_no_init: publish.el
 	@echo "Publishing... with --no-init."
 	${EMACS} --batch --no-init --load publish.el --funcall org-publish-all
+	mkdir -p docs/blog
+	stow -v -R --ignore=blog -t docs/blog docs
 
 clean:
 	@echo "Cleaning up.."
@@ -30,6 +34,4 @@ clean:
 	@rm -rvf ~/.org-timestamps/*
 
 serve:
-	mkdir docs/blog
-	stow -v -R --ignore=blog -t docs/blog docs
 	python3 -m http.server --directory=docs/
