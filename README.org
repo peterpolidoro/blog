@@ -10,7 +10,7 @@ https://peterpolidoro.github.io/blog
 
   #+BEGIN_SRC shell
 
-		git clone https://github.com/peterpolidoro/blog
+    git clone https://github.com/peterpolidoro/blog
 
   #+END_SRC
 
@@ -19,8 +19,8 @@ https://peterpolidoro.github.io/blog
 
   #+BEGIN_SRC shell -n
 
-		cd blog
-		make
+    cd blog
+    make
 
   #+END_SRC
 
@@ -28,9 +28,9 @@ https://peterpolidoro.github.io/blog
 
   #+BEGIN_SRC shell -n
 
-		make serve
+    make serve
 
-		# Open http://localhost:8000/ in the Web browser.
+    # Open http://localhost:8000/ in the Web browser.
 
   #+END_SRC
 
