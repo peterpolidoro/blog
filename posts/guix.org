@@ -1,0 +1,6 @@
+#+title: GNU Guix
+#+date: <2021-02-10 Wed>
+#+filetags: github git org-mode orgmode emacs guix
+#+setupfile: ../org-templates/post.org
+
+Ubuntu was the first GNU/Linux distribution 

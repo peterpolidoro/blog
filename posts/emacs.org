@@ -1,0 +1,27 @@
+#+title: GNU Emacs
+#+date: <2021-02-09 Tue>
+#+filetags: github git org-mode orgmode emacs
+#+setupfile: ../org-templates/post.org
+
+* Background
+
+	The first time I watched over the shoulder of a GNU Emacs wizard I was
+	mesmerized. The cursor danced over text, leaping from place to place and file
+	to file, chopping out pieces of code, moving it, creating it, indenting it,
+	effortless and fast, in a blur of mysterious key strokes. The world on the
+	screen was almost all text, no fancy widgets or menu icons, making it seem
+	ancient and outdated, while at the same time somehow futuristic and pure. It
+	seemed like the ideal environment for people who are REALLY good at
+	computers and I wanted to be one of them.
+
+	The GNU Emacs wizards were Andrew Straw and Will Dickson, members of the
+	Dickinson lab at Caltech, where I had just started working as an engineer back
+	in 2007. I had never felt the need to use anything fancier than Windows
+	Notepad for writing code and Word or Wordperfect for writing everything else.
+	They seemed good enough and I knew how to use them well enough to be
+	productive. I wrote some Python code with Notepad and shared it with Andrew
+	and he opened it up with Emacs and showed me how it looked. What seemed clean
+	and organized in Notepad appeared to be a horrible embarrassing mess when
+	Emacs showed all of the extraneous characters and bizarre formatting, inserted
+	by Notepad but hidden from view. I decided I needed to up my programming game
+	and learn how to use a real code editor.

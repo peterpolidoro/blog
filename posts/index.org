@@ -1,4 +1,8 @@
 #+TITLE: Blog Index
 
 - *[[file:virtualization.org][Virtualization]]*
-  #+html: <p class='pubdate'>by Peter Polidoro on Feb 05, 2021.</p>
+  #+html: <p class='pubdate'>by Peter Polidoro on Feb 11, 2021.</p>
+- *[[file:guix.org][GNU Guix]]*
+  #+html: <p class='pubdate'>by Peter Polidoro on Feb 10, 2021.</p>
+- *[[file:emacs.org][GNU Emacs]]*
+  #+html: <p class='pubdate'>by Peter Polidoro on Feb 09, 2021.</p>
