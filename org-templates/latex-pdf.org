@@ -1,4 +1,4 @@
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 #+OPTIONS: email:t
 #+LATEX_CLASS: article
 #+LATEX_CLASS_OPTIONS:

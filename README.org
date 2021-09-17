@@ -1,6 +1,6 @@
 #+title: Peter Polidoro Github Blog
 #+author: Peter Polidoro
-#+EMAIL: peterpolidoro@gmail.com
+#+EMAIL: peter@polidoro.io
 
 https://peterpolidoro.github.io/blog
 

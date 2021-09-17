@@ -1,5 +1,5 @@
 ;; publish.el --- Publish org-mode project on Github Pages
-;; Author: Peter Polidoro <peterpolidoro@gmail.com>
+;; Author: Peter Polidoro <peter@polidoro.io>
 
 ;;; Commentary:
 ;; This Elisp will publish the org-mode files in 'posts/' to HTML format in 'docs/'

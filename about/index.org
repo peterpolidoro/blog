@@ -3,7 +3,7 @@
 
 Peter Polidoro
 
-peterpolidoro@gmail.com
+peter@polidoro.io
 
 I build robotics and automate experiments for the scientists studying animal
 brains at Janelia Research Campus.
